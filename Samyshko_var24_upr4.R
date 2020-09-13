@@ -20,6 +20,8 @@ sapply(faithful, sd)/sapply(faithful, mean) #sapply работает со все
 sapply(faithful, IQR)/2 #Функция IQR позволяет посчитать разницу между первым и третьим квартилями
 
 #СТАРОЕ!
+#eruption1 <- faithful$eruptions
+#waiting1 <- faithful$waiting
 #sd(eruption1)/mean(eruption1)
 #sd(waiting1)/mean(waiting1)
 #(quantile(eruption1, c(75)/100) - quantile(eruption1, c(25)/100))/2
