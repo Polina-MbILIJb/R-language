@@ -14,8 +14,6 @@ r <- colnames(faithful)
 faithful[,sapply(faithful,is.numeric)]
 
 #4.7). Рассчитайте коэффициенты вариации и среднее квартильное расстояние по каждому столбцу получившегося фрейма
-eruption1 <- faithful$eruptions
-waiting1 <- faithful$waiting
 #Коэф-ты вариаций
 sapply(faithful, sd)/sapply(faithful, mean) #sapply работает со всеми значениями и возвращает вектором, в то время как lapply возвращает списком
 #Среднее квартильное расстояние
