@@ -43,6 +43,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r import}
 # импорт данных из .csv
+#file.path <- 'https://raw.githubusercontent.com/Polina-MbILIJb/R-language/master/Данные_Самышко.csv'
 file.path <- 'Данные_Самышко.csv'
 DF <- read.csv2(file.path, stringsAsFactors = F)
 
